@@ -1,0 +1,37 @@
+Exersice 2
+
+XTAL = 16 MHz --> 1/16 microseconds
+Selected pre Scaler = 1:256
+counter clock time = 256/16 = 16
+increments = 500000/16 = 31250
+
+Selected pre Scaler = 1:1024
+counter clock time = 1024/16 = 64
+increments = 500000/64 = 7812.5
+........................................................
+
+Exersice 3
+
+Highest possible countable value of timer0,
+XTAL = 16 MHz --> 1/16 microseconds
+highest prescalar 1:1024
+counter clock time = 1024/16 = 64 microseconds
+timer counter overflows 256*64 = 16384 microseconds
+                              = 16.384 ms
+........................................................
+
+Exersice 5
+ 
+
+highest prescalar 1:1024
+counter clock time = 1024/16 = 64
+timer counter overflows 256*64 = 16384 microseconds
+                              = 16.384 ms
+
+To generate a time delay of 100ms = 100ms/16.384ms 
+                                  = 6.10
+Therefore the counter TCNT0 has to overflow 7 times to generate a time delay of 100ms
+
+
+
+
